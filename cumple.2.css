@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* Un fondo azul claro */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tarjeta {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 30px;
+    border: 5px solid #ff69b4; /* Borde rosa */
+}
+
+.contenido-tarjeta h1 {
+    color: #ff69b4; /* Rosa */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.contenido-tarjeta img {
+    max-width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #ffd700; /* Borde dorado para la imagen */
+}
+
+.contenido-tarjeta p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#boton-sorpresa {
+    background-color: #ff69b4; /* Rosa */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+#boton-sorpresa:hover {
+    background-color: #ff1493; /* Rosa más oscuro */
+    transform: scale(1.05);
+}
+
+#mensaje-sorpresa {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #fffacd; /* Amarillo pálido */
+    border-radius: 10px;
+    border: 2px dashed #ff69b4;
+}
+
+.oculto {
+    display: none;
+}
